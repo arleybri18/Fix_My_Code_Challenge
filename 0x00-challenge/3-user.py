@@ -74,7 +74,7 @@ if __name__ == '__main__':
     user_1.password = u_pwd
     if user_1.password == u_pwd:
         print("User.password should be hashed")
-    
+
     if user_2.password is not None:
         print("User.password should be None by default")
 
